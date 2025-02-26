@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hero() {
+function HeroSection() {
   return (
     <section className='h-screen flex items-center justify-center overflow-hidden  '
     style={{
@@ -21,4 +21,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default HeroSection

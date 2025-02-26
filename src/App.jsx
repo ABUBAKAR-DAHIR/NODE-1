@@ -1,6 +1,6 @@
 import './App.css'
+import Hero from './components/HeroSection'
 import Navbar from './components/Navbar'
-import Hero from './components/hero'
 import ProductCatalog from './components/ProductCatalog'
 
 function App() {
