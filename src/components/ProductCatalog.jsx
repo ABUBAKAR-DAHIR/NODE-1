@@ -51,10 +51,7 @@ const ProductCatalog = () => {
     <section className="grid grid-cols-3 gap-4 mt-10 overflow-x-hidden px-10">
     <div>
       <h2 className="text-2xl font-bold mb-8">Product Catalog</h2>
-      <div className="flex justify-between flex-wrap w-screen  items-center" 
-      style={{
-        backgroundColor: "red"
-      }}>
+      <div className="flex justify-between flex-wrap w-screen  items-center">
         <div className='w-10xl flex flex-wrap '>
           {products.map((pro) => (
             <div key={pro.id} className='p-10'>
